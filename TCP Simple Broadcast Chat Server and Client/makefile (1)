@@ -1,0 +1,10 @@
+all: server.c client.c
+	gcc -o server server.c
+	gcc -o client1 client.c
+	gcc -o client2 client.c
+	gcc -o client3 client.c
+clean: server.c client.c
+	rm server
+	rm client1
+	rm client2
+	rm client3
