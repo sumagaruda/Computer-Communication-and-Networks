@@ -1,0 +1,4 @@
+all: server.c client.c
+	gcc -o echos server.c
+	gcc -o echo client.c
+	
